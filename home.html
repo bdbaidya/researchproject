@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clickable Icon Links</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+        .icon-container img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            cursor: pointer;
+        }
+        .icon-container {
+            gap: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center">
+        <div class="d-flex justify-content-center align-items-center icon-container">
+            <a href="https://docs.google.com/presentation/d/12FW-gl05jBmzu3TWSxehOzogLMA6-9hpQY5N4s5TUrY/edit?usp=sharing" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Google_Slides_logo_%282014-2020%29.svg/1489px-Google_Slides_logo_%282014-2020%29.svg.png" alt="Intro Slide" title="Intro Slide">
+            </a>
+            <a href="https://docs.google.com/document/d/1boReeV8dMbLIF4Kmi3uVLGXTQsOvHYCbVsq0v552ll8/edit?usp=drive_link" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Google_Docs_2020_Logo.svg/174px-Google_Docs_2020_Logo.svg.png" alt="Report Paper" title="Report Paper">
+            </a>
+            <a href="https://gitlab.com/nct_tso_students/research_projects_cms/videomae-towards-foundation-models" target="_blank">
+                <img src="https://banner2.cleanpng.com/20181228/lb/kisspng-github-computer-icons-version-control-source-code-revert-the-revert-and-avoid-conflicts-theodo-5c26e09ab6de71.015972601546051738749.jpg" alt="Repository" title="Repository">
+            </a>
+            <a href="https://example.com/other" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX422ZvVqFoTpvPUrBZOwx2OtBTLt0PVnGxg&s" alt="Other" title="Other">
+            </a>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
