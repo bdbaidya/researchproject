@@ -10,6 +10,7 @@
         body {
             height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             margin: 0;
@@ -23,23 +24,46 @@
         .icon-container {
             gap: 20px;
         }
+        .icon-text {
+            margin-top: 10px;
+            font-size: 1rem;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
     <div class="container text-center">
-        <div class="d-flex justify-content-center align-items-center icon-container">
-            <a href="https://docs.google.com/presentation/d/12FW-gl05jBmzu3TWSxehOzogLMA6-9hpQY5N4s5TUrY/edit?usp=sharing" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Google_Slides_logo_%282014-2020%29.svg/1489px-Google_Slides_logo_%282014-2020%29.svg.png" alt="Intro Slide" title="Intro Slide">
-            </a>
-            <a href="https://docs.google.com/document/d/1boReeV8dMbLIF4Kmi3uVLGXTQsOvHYCbVsq0v552ll8/edit?usp=drive_link" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Google_Docs_2020_Logo.svg/174px-Google_Docs_2020_Logo.svg.png" alt="Report Paper" title="Report Paper">
-            </a>
-            <a href="https://gitlab.com/nct_tso_students/research_projects_cms/videomae-towards-foundation-models" target="_blank">
-                <img src="https://banner2.cleanpng.com/20181228/lb/kisspng-github-computer-icons-version-control-source-code-revert-the-revert-and-avoid-conflicts-theodo-5c26e09ab6de71.015972601546051738749.jpg" alt="Repository" title="Repository">
-            </a>
-            <a href="https://example.com/other" target="_blank">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX422ZvVqFoTpvPUrBZOwx2OtBTLt0PVnGxg&s" alt="Other" title="Other">
-            </a>
+        <!-- Banner Image -->
+        <div class="mb-4">
+            <h5>Towards Temporal Foundation Models for Surgical Phase Detection 
+            in Robot-Assisted Minimally Invasive Esophagectomies</h5>
+        </div>
+        
+        <div class="d-flex justify-content-center align-items-center flex-wrap icon-container">
+            <div class="text-center">
+                <a href="https://docs.google.com/presentation/d/12FW-gl05jBmzu3TWSxehOzogLMA6-9hpQY5N4s5TUrY/edit?usp=sharing" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Google_Slides_logo_%282014-2020%29.svg/1489px-Google_Slides_logo_%282014-2020%29.svg.png" alt="Intro Slide" title="Intro Slide">
+                </a>
+                <div class="icon-text">Intro Slide</div>
+            </div>
+            <div class="text-center">
+                <a href="https://docs.google.com/document/d/1boReeV8dMbLIF4Kmi3uVLGXTQsOvHYCbVsq0v552ll8/edit?usp=drive_link" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Google_Docs_2020_Logo.svg/174px-Google_Docs_2020_Logo.svg.png" alt="Report Paper" title="Report Paper">
+                </a>
+                <div class="icon-text">Report Paper</div>
+            </div>
+            <div class="text-center">
+                <a href="https://gitlab.com/nct_tso_students/research_projects_cms/videomae-towards-foundation-models" target="_blank">
+                    <img src="https://banner2.cleanpng.com/20181228/lb/kisspng-github-computer-icons-version-control-source-code-revert-the-revert-and-avoid-conflicts-theodo-5c26e09ab6de71.015972601546051738749.jpg" alt="Repository" title="Repository">
+                </a>
+                <div class="icon-text">Repository</div>
+            </div>
+            <div class="text-center">
+                <a href="" target="_blank">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX422ZvVqFoTpvPUrBZOwx2OtBTLt0PVnGxg&s" alt="Other" title="Other">
+                </a>
+                <div class="icon-text">Other</div>
+            </div>
         </div>
     </div>
 
