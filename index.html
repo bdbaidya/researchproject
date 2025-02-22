@@ -16,8 +16,8 @@
             margin: 0;
         }
         .icon-container img {
-            width: 200px;
-            height: 200px;
+            width: 150px;
+            height: 150px;
             object-fit: cover;
             cursor: pointer;
         }
@@ -28,6 +28,11 @@
             margin-top: 10px;
             font-size: 1rem;
             font-weight: bold;
+        }
+        .logo-container {
+            display: flex;
+            gap: 10px; /* Adds space between images */
+            align-items: center;
         }
     </style>
 </head>
@@ -80,11 +85,13 @@
         <div class="d-flex flex-column text-center">
     <h6>Research project by: Debashis B.</h6>
     <h6>Supervised by: Max Kirchner & Hanna Hoffmann</h6>
-    <img src="https://www.nct-dresden.de/++theme++nct/images/logo-ukd-de.png" alt="Logo" title="Logo" height="100px" width="150px">
-    <img src="https://www.cleverinsonne.de/wp-content/uploads/2021/05/Logo_TUD-400x161.png" alt="Logo" title="Logo" height="100px" width="150px">
-    <img src="https://aktivmitkrebs.de/files/Partnerlogos/Logo-dkfz-RGB.png" alt="Logo" title="Logo" height="100px" width="150px">
-    <img src="https://www.klinikum.uni-heidelberg.de/fileadmin/_processed_/f/8/csm_rgb_nct24_logo_heidelberg_3sp_d_lang_18138fc89c.png" alt="Logo" title="Logo" height="100px" width="150px" >
-</div>
+    </div>
+    <div class="logo-container">
+        <img src="https://www.nct-dresden.de/++theme++nct/images/logo-ukd-de.png" alt="Logo 1" height="100px" width="150px">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Logo_TU_Dresden.svg/640px-Logo_TU_Dresden.svg.png" alt="Logo 2" height="100px" width="150px">
+        <img src="https://aktivmitkrebs.de/files/Partnerlogos/Logo-dkfz-RGB.png" alt="Logo 3" height="100px" width="150px">
+        <img src="https://www.klinikum.uni-heidelberg.de/fileadmin/_processed_/f/8/csm_rgb_nct24_logo_heidelberg_3sp_d_lang_18138fc89c.png" alt="Logo 4" height="100px" width="150px">
+    </div>
     </div>
 
     <!-- Bootstrap JS -->
